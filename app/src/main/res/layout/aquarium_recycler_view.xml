@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/aquariumNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="start"
+        android:padding="2dp"
+        android:paddingStart="5dp"
+        android:text="text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+   <!-- <TextView
+        android:id="@+id/tempTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:paddingLeft="5dp"
+        android:text="text2" />
+
+    <TextView
+        android:id="@+id/phTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:paddingLeft="5dp"
+        android:text="text3" />
+
+    <TextView
+        android:id="@+id/salinityTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:paddingLeft="5dp"
+        android:text="text3" />-->
+
+</LinearLayout>

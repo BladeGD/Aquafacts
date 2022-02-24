@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">AquaFacts</string>
+    <string name="welcome_message">Your aquarium:\n%s </string>
+    <string name="status_healthy">Status: \nHealthy</string>
+    <string name="status_warning">Status: \nWarning</string>
+    <string name="status">Status:</string>
+    <string name="temperature_button_c">Temperature: \n %s °C</string>
+    <string name="temperature_button_f">Temperature: \n %s °F</string>
+    <string name="ph_button"> PH: \n%s</string>
+    <string name="salinity_button">Salinity: \n%s ppm</string>
+    <string name="edit_mode">Edit mode</string>
+    <string name="view_mode">View mode</string>
+    <string name="current_temperature_c">Current temperature: %s °C</string>
+    <string name="current_temperature_f">Current temperature: %s °F</string>
+    <string name="current_temperature">Current temperature: %s</string>
+    <string name="current_pH">Current pH: %s</string>
+    <string name="current_Salinity">Current salinity: %s ppm</string>
+    <string name="max_temperature">Max temperature</string>
+    <string name="unique_hardware_id">Unique hardware ID</string>
+    <string name="aquarium_name">Aquarium name</string>
+    <string name="minimum_temperature">Minimum temperature</string>
+    <string name="save_settings">Save aquarium settings</string>
+    <string name="settings_page">Settings page</string>
+    <string name="basic_aquarium_settings">Basic Aquarium Settings</string>
+    <string name="temperature_settings">Temperature Settings</string>
+    <string name="month">Month</string>
+    <string name="week">Week</string>
+    <string name="day">Day</string>
+    <string name="celsius_min_temp_warning">"Please enter a minimum temperature between 0°C and 60°C"</string>
+    <string name="fahrenheit_min_temp_warning">"Please enter a minimum temperature between 32°F and 140°F"</string>
+    <string name="celsius_max_temp_warning">"Please enter a maximum temperature between 0°C and 60°C"</string>
+    <string name="fahrenheit_max_temp_warning">"Please enter a maximum temperature between 32°F and 140°F"</string>
+    <string name="notifications">Notifications</string>
+    <string name="units">Units:</string>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string name="warning_title">AquaFacts: Warning!</string>
+    <string name="ph_settings">pH Settings</string>
+    <string name="minimum_ph">Minimum pH</string>
+    <string name="max_ph">Max pH</string>
+    <string name="temperature_default">Temperature: \n</string>
+    <string name="ShowTable">Show Log</string>
+
+    <!-- Help section -->
+    <string name="main_help_page">Need help?
+\nTo select the aquarium desired, a dropdown menu is included in the header.
+	\nIn the Home page, the overall status of the aquarium is displayed as “Healthy” or “Warning”. If your aquarium is in a healthy state, the status is displayed in green. If it is in danger, it is displayed in yellow.
+	\nCurrent values of temperature, pH and salinity are displayed as buttons right below the overall status. Each of the 3 buttons leads to a more detailed page.
+	\nHealthy ranges:
+		\nTemperature: 35°C to 45°C or 308.15K to 318.15
+		\npH: 2 to 5
+    </string>
+    <string name="ph_help_page">
+        Need help?
+	\nThe color of the pH button’s text is set to green or yellow depending on whether or not the value is in range (2 to 5)
+\nThe pH data of current and past values are summarized and laid out on the page.
+\nThere is a listView option which displays a log of the pH values.
+    </string>
+    <string name="temp_help_page">
+        Need help?
+	The current temperature value of your aquarium is displayed at the top.
+	In the temperature page, a graph displays all temperature values based on what timestamp is selected below the graph.
+	The measurement unit can be selected in your Settings page as Celsius (°C) or Kelvin (K).
+There is a listView option which displays a log of the temperature values.
+    </string>
+    <string name="settings_help_page">
+        Need help?
+	The aquarium name desired can be entered in the “Aquarium name” textbox.
+	Push notifications can be enabled if desired.
+	Temperature units can be displayed as Celsius (°C) or Kelvin (K).
+	Safe ranges of the aquarium for temperature, pH and salinity are displayed.
+    </string>
+    <string name="ph_default">pH:\n</string>
+    <string name="aquarium_prompt">Choose an aquarium to view it\'s parameters, or create a new aquariums.</string>
+    <string name="your_aquariums">Your aquariums</string>
+    <string name="create_your_aquarium">Create your aquarium</string>
+    <string name="salinity_settings_ppm">Salinity settings (ppm)</string>
+    <string name="minimum_salinity">Minimum salinity</string>
+    <string name="maximum_salinity">Maximum salinity</string>
+    <string name="delete_aquarium">Delete aquarium</string>
+    <string name="title_activity_salinity_help">SalinityHelpActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

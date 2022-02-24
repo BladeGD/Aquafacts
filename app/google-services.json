@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "415682123915",
+    "firebase_url": "https://aquarium-app-bb5e5-default-rtdb.firebaseio.com",
+    "project_id": "aquarium-app-bb5e5",
+    "storage_bucket": "aquarium-app-bb5e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415682123915:android:99e6ab33527aa6db27dc8e",
+        "android_client_info": {
+          "package_name": "com.example.aquariumapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415682123915-6q5kmo1kpkoerkufabqi2aei94ksge9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA6--OyDPuJkPSI8RaeDJdWwRjryp62hU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415682123915-6q5kmo1kpkoerkufabqi2aei94ksge9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

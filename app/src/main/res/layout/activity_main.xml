@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/t"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Main.MainActivity"
+    style="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <TextView
+        android:id="@+id/WelcomeMessage"
+        android:layout_width="381dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#8C8887"
+        android:textSize="30sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_status"
+        android:layout_width="381dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="OnStatusButtonClick"
+        android:text="@string/status"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WelcomeMessage">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button_temp"
+        android:layout_width="300dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:text="@string/temperature_default"
+        app:layout_constraintBottom_toTopOf="@+id/button_ph"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_status"
+        android:onClick="OnTemperatureButtonClick"/>
+
+    <Button
+        android:id="@+id/button_ph"
+        android:layout_width="300dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:text="@string/ph_button"
+        app:layout_constraintBottom_toTopOf="@+id/button_salinity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_temp"
+        android:onClick="OnPhButtonClick">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button_salinity"
+        android:layout_width="300dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="90dp"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:text="@string/salinity_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ph"
+        android:onClick="OnSalinityButtonClick">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

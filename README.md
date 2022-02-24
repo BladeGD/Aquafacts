@@ -1,4 +1,5 @@
 # Aquafacts
+Fulfilled in the scope of COEN390 engineering project at Concordia University
 
 ### Goal
 Monitor various aquarium parameters using an android mobile application and cloud services. Parameters monitored includes temperature, pH, and salinity.
